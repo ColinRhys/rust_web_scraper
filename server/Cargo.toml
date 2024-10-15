@@ -1,0 +1,12 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+clap = { version = "3", features = ["derive"] }
+scraper_lib = { path = "../scraper_lib" }
+anyhow = "1.0"
+log = "0.4.22"
+env_logger = "0.9"

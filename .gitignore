@@ -1,0 +1,8 @@
+# Ignore all target directories
+/target/
+**/target/
+
+
+# Ignore internal Cargo lock files
+**/Cargo.lock
+Cargo.lock

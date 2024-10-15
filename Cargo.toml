@@ -1,0 +1,3 @@
+[workspace]
+members = ["scraper_lib", "cli", "server"]
+resolver = "2"
